@@ -9,6 +9,14 @@ function ProductSlide() {
       caption: ""
     },
     {
+      image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
+      caption: "Darjeeling"
+    },
+    {
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
+      caption: "San Francisco"
+    },
+    {
       image:`/images/kt/armoni.jpg`,
       caption: "Scotland"
     },
@@ -48,7 +56,7 @@ function ProductSlide() {
         }}>
           <Carousel
             data={data}
-            time={3000}
+            time={2000}
             width="850px"
             height="500px"
             captionStyle={captionStyle}
