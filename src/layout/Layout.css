@@ -1,0 +1,25 @@
+.footer-border {
+    border-top:lightgrey 1px solid;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sosyal-medya-icon {
+    font-size: 20px;
+}
+
+.header-border {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+  }
+
+  .navbar-expand-xl .navbar-nav .nav-link {
+      padding: 1rem 1rem;
+      font-weight: 500;
+  }
+
+.nav-brand {
+    font-weight: 600;
+    font-size: 16px;
+}

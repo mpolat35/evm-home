@@ -1,0 +1,70 @@
+/* Home Slider CSS */
+
+#carousel_1 .carousel-control-prev, 
+#carousel_1 .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    opacity: 1;
+    top: calc(50% - 25px);
+    color:rgb(10, 10, 10) !important;
+}
+
+#carousel_1 .carousel-control-prev {
+    left: -2%;
+}
+
+#carousel_1 .carousel-control-next {
+    right: -2%;
+}
+
+#carousel_1 .carousel-caption {
+    background-color: #f4f4f4;
+    transition:all 1s cubic-bezier(.25,.46,.45,.94);
+    transition: delay 0.5s;;
+    width: 430px;
+    height: 270px;
+    padding: 30px;
+    bottom: -100;
+  }
+
+/* Home Tab CSS */
+
+  .nav {
+    background: #f4f4f4 !important;
+    border-radius: 80px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .nav-pills .nav-link {
+      border-radius: 50px;
+      padding-right: 25px;
+      padding-left: 25px;
+      font-weight: 500;
+  }
+
+  /* CSS Home Resimler */
+
+  .box-1 {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: chocolate;
+  }
+
+  .box-2 {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(30, 144, 210);
+  }
+
+  .box-3 {
+
+    background-color: rgb(30, 210, 90);
+  }
