@@ -1,6 +1,7 @@
 import React from 'react'
 import slayt1 from '../../images/slayt1.jpg'
 import slayt2 from '../../images/slayt2.jpg'
+import slayt3 from '../../images/slayt3.jpg'
 
 
 const HomeSlider = () => {
@@ -14,7 +15,7 @@ const HomeSlider = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="4000">
-                    <img src={slayt1} className="d-block w-100" height="800"  alt="..."/>
+                    <img src={slayt1} className="d-block w-100 radius-30" height="800"  alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                         <h1>Hector Yemek Odası</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>
@@ -22,7 +23,7 @@ const HomeSlider = () => {
                     </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="4000">
-                    <img src={slayt2} className="d-block w-100" height="800"  alt="..."/>
+                    <img src={slayt2} className="d-block w-100 radius-30" height="800"  alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                          <h1>Hector Yemek Odası</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>
@@ -30,7 +31,7 @@ const HomeSlider = () => {
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="https://picsum.photos/id/100/1300/800" className="d-block w-100" height="700"  data-bs-interval="4000" alt="..."/>
+                    <img src={slayt3} className="d-block w-100 radius-30" height="800"  data-bs-interval="4000" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                         <h1>Hector Yemek Odası</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>

@@ -9,7 +9,7 @@ import longlukes from '../images/kt/longlukes.jpg'
 
 function Kartslayt() {
     return (
-        <div className="p-3" style={{backgroundColor:'#EAEAEA'}}>
+        <div className="container-xxl p-3" style={{backgroundColor:'#EAEAEA'}}>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                 <div className="row">
                     

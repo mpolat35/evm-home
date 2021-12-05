@@ -1,5 +1,5 @@
 import React from 'react'
-import berjer from '../../images/berjer.jpg'
+import berjer1 from '../../images/berjer1.jpg'
 import sehpa from '../../images/sehpa.jpg'
 import lamba from '../../images/lamba.jpg'
 import kitaplık from '../../images/kitaplık.jpg'
@@ -16,7 +16,7 @@ function Resim() {
                 <div className="col-lg-6">
                     <div className="row ">
                         <div className="col-sm-12 col-lg-6 mb-2" >
-                        <img src={berjer} className="w-100 " height="510" alt="..."/>
+                        <img src={berjer1} className="w-100 "  alt="..."/>
                         </div>
                         <div className="col-sm-12 col-lg-6">
                             <div className="row mb-2">
