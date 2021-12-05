@@ -33,7 +33,7 @@ const HomeSlider = () => {
                     <div className="carousel-item">
                     <img src={slayt3} className="d-block w-100 radius-30" height="800"  data-bs-interval="4000" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
-                        <h1>Hector Yemek Odası</h1>
+                        <h1>Pro Delta Room</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>
                         <button className="btn btn-outline-primary">Ürünü İnceleyin</button>
                     </div>
