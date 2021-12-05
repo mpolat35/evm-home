@@ -6,6 +6,7 @@ import HomePage from './pages/home/Home';
 import Layout from './layout/Layout';
 import {createBrowserHistory} from 'history';
 import Koltuktakimi from './pages/koltuk/KoltukTakimi';
+import YemekOdasiPage from './pages/YemekOdasiPage';
 
 export const history = createBrowserHistory();
 
@@ -18,7 +19,8 @@ function App() {
               <Route path="/" exact component={HomePage}/>
               <Route path="/hakkimizda" component={AboutPage}/>
               <Route path="/iletisim" component={ContactPage}/>
-              <Koltuktakimi path="/koltuk-takimi" component={Koltuktakimi}/>
+              <Route path="/koltuk-takimi" component={Koltuktakimi}/>
+              <Route  path="/yemek-odasi" component={YemekOdasiPage}/> 
           </Layout>
         </div>
       </Router>

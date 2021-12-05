@@ -7,7 +7,7 @@ import liza from '../../images/kt/liza.jpg'
 import lizbon from '../../images/kt/lizbon.jpeg'
 import loft from '../../images/kt/loft.jpeg'
 import longlukes from '../../images/kt/longlukes.jpg'
-import ProductSlide from '../product/ProductSlide';
+
 
 const Koltuktakimi = () => {
     return (
@@ -15,7 +15,7 @@ const Koltuktakimi = () => {
             <h4 className="text-primary my-3">Koltuk Takımları</h4>
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
-                <Link to={`/koltuk-takimi`} style={{textDecoration:'none'}} >
+                <Link to={`/yemek-odasi`} style={{textDecoration:'none'}} >
                     <div className="paper">
                         <img src={armoni} className="d-block w-100" alt="..."/>
                         <div className="d-none d-md-block">
@@ -70,9 +70,6 @@ const Koltuktakimi = () => {
                     </div>
                 </div>
             </div>
-            <hr/>
-            <h5>Ürün Slaytı</h5>
-            <ProductSlide/>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import slayt2 from '../../images/slayt2.jpg'
 
 const HomeSlider = () => {
     return (
-        <div className=""style={{maxWidth:'1400px', margin:'auto'}} >
+        <div className="container-xxl" >
             <div id="carousel_1" className="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -14,7 +14,7 @@ const HomeSlider = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="4000">
-                    <img src={slayt1} className="d-block w-100" height="700" width="1300" alt="..."/>
+                    <img src={slayt1} className="d-block w-100" height="800"  alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                         <h1>Hector Yemek Odası</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>
@@ -22,7 +22,7 @@ const HomeSlider = () => {
                     </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="4000">
-                    <img src={slayt2} className="d-block w-100" height="700" width="1300" alt="..."/>
+                    <img src={slayt2} className="d-block w-100" height="800"  alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                          <h1>Hector Yemek Odası</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>
@@ -30,7 +30,7 @@ const HomeSlider = () => {
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="https://picsum.photos/id/100/1300/700" className="d-block w-100" height="700" width="1300" data-bs-interval="4000" alt="..."/>
+                    <img src="https://picsum.photos/id/100/1300/800" className="d-block w-100" height="700"  data-bs-interval="4000" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                         <h1>Hector Yemek Odası</h1>
                         <p>Enerji ve farklı bir sadeliği tercih edenlerin seçimi. Hector yemek odası takımı...</p>
