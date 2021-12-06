@@ -29,8 +29,8 @@ const YemekOdasiPage = () => {
             </div>
 
             <div className="mt-3" style={{backgroundColor:'#EAEAEA'}}>
-                <div className="container-xxxl">
-                <h2 className="pt-5">Benzer Ürünler</h2>
+                <div className="container-xxl">
+                <h2 className="pt-5 ps-2">Benzer Ürünler</h2>
                 <Kartslayt/>
                 </div>
             

@@ -9,47 +9,47 @@ import longlukes from '../images/kt/longlukes.jpg'
 
 function Kartslayt() {
     return (
-        <div className="container-xxl p-3" style={{backgroundColor:'#EAEAEA'}}>
+        <div className="container-xxl p-3 paper" >
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                 <div className="row">
                     
                 </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <div className="row my-3">
-                            <div className="col-md-4 col-sm-12">
-                                <div className="paper">
+                <div className="carousel-inner" style={{backgroundColor:'white'}}>
+                    <div className="carousel-item active" style={{backgroundColor:'white'}}>
+                        <div className="row " >
+                            <div className="col-md-4 col-sm-12" >
+                                <div className="" >
                                     <img src={armoni} className="d-block w-100" alt="..."/>
                                     <div className="d-none d-md-block">
-                                        <h5 className="mt-3">Armoni Koltuk Takımı</h5>
+                                        <h5 className="mt-2">Armoni Koltuk Takımı</h5>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-md-4 col-sm-12">
-                                <div className="paper">
+                                <div className="">
                                     <img src={kiev} className="d-block w-100" alt="..."/>
                                     <div className="d-none d-md-block">
-                                        <h5 className="mt-3">Kiev Koltuk Takımı</h5>
+                                        <h5 className="mt-2">Kiev Koltuk Takımı</h5>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-md-4">
-                                <div className="paper">
+                                <div className="">
                                     <img src={liza} className="d-block w-100" alt="..."/>
                                     <div className="d-none d-md-block">
-                                        <h5 className="mt-3">Liza Koltuk Takımı</h5>
+                                        <h5 className="mt-2">Liza Koltuk Takımı</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="carousel-item my-3">
-                        <div className="row">
-                            <div className="col-md-4 col-sm-12 my-1">
-                                <div className="paper">
+                    <div className="carousel-item my-3" style={{backgroundColor:'white'}}>
+                        <div className="row" >
+                            <div className="col-md-4 col-sm-12 my-1" >
+                                <div className="">
                                     <img src={lizbon} className="d-block w-100" alt="..."/>
                                     <div className="d-none d-md-block">
                                         <h5 className="mt-2">Lizbon Koltuk Takımı</h5>
@@ -58,7 +58,7 @@ function Kartslayt() {
                             </div>
 
                             <div className="col-md-4 col-sm-12 my-1">
-                                <div className="paper">
+                                <div className="">
                                     <img src={loft} className="d-block w-100" alt="..."/>
                                     <div className="d-none d-md-block">
                                         <h5 className="mt-2">Loft Koltuk Takımı</h5>
@@ -67,7 +67,7 @@ function Kartslayt() {
                             </div>
 
                             <div className="col-md-4 col-sm-12 my-1">
-                                <div className="paper">
+                                <div className="">
                                     <img src={longlukes} className="d-block w-100" alt="..."/>
                                     <div className="d-none d-md-block">
                                         <h5 className="mt-2">Long Lukes Koltuk Takımı</h5>

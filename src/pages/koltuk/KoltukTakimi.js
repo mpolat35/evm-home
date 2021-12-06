@@ -18,7 +18,7 @@ const Koltuktakimi = () => {
                 <Link to={`/yemek-odasi`} style={{textDecoration:'none'}} >
                     <div className="paper">
                         <img src={armoni} className="d-block w-100" alt="..."/>
-                        <div className="d-none d-md-block">
+                        <div className="">
                             <h5 className="mt-1">Armoni Koltuk Takımı</h5>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Koltuktakimi = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div className="paper">
                         <img src={kiev} className="d-block w-100" alt="..."/>
-                        <div className="d-none d-md-block">
+                        <div className="">
                             <h5 className="mt-1">Kiev Koltuk Takımı</h5>
                         </div>
                     </div>

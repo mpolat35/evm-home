@@ -26,7 +26,7 @@ const HomeTab = () => {
                     <button className="nav-link" id="pills-baza-tab" data-bs-toggle="pill" data-bs-target="#pills-baza" type="button" role="tab" aria-controls="pills-baza" aria-selected="false">Yatak & Baza</button>
                 </li>
             </ul>
-            <div className="tab-content py-3" id="pills-tabContent" style={{backgroundColor:'#EAEAEA'}} >
+            <div className="tab-content py-3" id="pills-tabContent" style={{backgroundColor:'#edf2f7'}} >
                 <div className="tab-pane fade show active" id="pills-koltuk" role="tabpanel" aria-labelledby="pills-koltuk-tab"><Kartslayt/></div>
                 <div className="tab-pane fade" id="pills-yemek" role="tabpanel" aria-labelledby="pills-yemek-tab"><YemekOdasi/></div>
                 <div className="tab-pane fade" id="pills-yatak" role="tabpanel" aria-labelledby="pills-yatak-tab">CCC</div>

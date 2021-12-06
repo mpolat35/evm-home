@@ -1,10 +1,10 @@
-/* Home Slider CSS */
+/* ? Home Slider CSS */
 
 #carousel_1 .carousel-control-prev, 
 #carousel_1 .carousel-control-next {
-    width: 50px;
-    height: 50px;
-    background-color: #f4f4f4;
+    width: 40px;
+    height: 40px;
+    background-color: #edf2f7;
     border-radius: 50%;
     opacity: 1;
     top: calc(50% - 25px);
@@ -12,11 +12,11 @@
 }
 
 #carousel_1 .carousel-control-prev {
-    left: -2%;
+    left: 2%;
 }
 
 #carousel_1 .carousel-control-next {
-    right: -2%;
+    right: 2%;
 }
 
 .carousel-item.active, .carousel-item-next, .carousel-item-prev {
@@ -24,19 +24,51 @@
 }
 
 #carousel_1 .carousel-caption {
-    background-color: #f4f4f4;
+    background-color: #edf2f7;
     transition:all 1s cubic-bezier(.25,.46,.45,.94);
     transition: delay 0.5s;;
     width: 430px;
     height: 270px;
     padding: 30px;
-    bottom: -100;
   }
 
-/* Home Tab CSS */
+   .carousel-control-prev, 
+ .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #edf2f7;
+    border-radius: 50%;
+    opacity: 1;
+    top: calc(50% - 25px);
+    color: red !important;
+}
+
+ .carousel-control-prev {
+    left: 2%;
+}
+
+ .carousel-control-next {
+    right: 2%;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  padding: 0px !important;
+}
+
+ .carousel-caption {
+    background-color: #edf2f7;
+    transition:all 1s cubic-bezier(.25,.46,.45,.94);
+    transition: delay 0.5s;;
+    width: 430px;
+    height: 270px;
+    padding: 30px;
+  }
+
+
+/* ! Home Tab CSS */
 
   .nav {
-    background: #f4f4f4 !important;
+    background: #edf2f7 !important;
     border-radius: 80px;
     padding: 10px 15px;
     display: flex;
@@ -54,13 +86,27 @@
   }
 
   .tab-content .active{
-    background-color: #EAEAEA;
+    background-color: #edf2f7;
   }
 
   .carousel-item.active, .carousel-item-next, .carousel-item-prev {
-    background-color: #EAEAEA;
+    background-color: #edf2f7;
     padding: 20px 0px;
   }
 
+
+
   /* CSS Home Resimler */
+
+  /* ! Home İcon */
+
+  .home-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
