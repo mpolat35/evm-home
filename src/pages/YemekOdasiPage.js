@@ -1,8 +1,9 @@
 import React from 'react'
-import Kartslayt from '../components/Kartslayt'
+import Lightbox from '../components/Lightbox'
 import ProductAcordion from '../components/ProductAcordion'
 import ProductTable from '../components/ProductTable'
-import ProductSlide from './product/ProductSlide'
+import YeniKartSlayt from '../components/YeniKartSlayt'
+
 
 
 
@@ -13,7 +14,7 @@ const YemekOdasiPage = () => {
             <h2>Armoni Koltuk Takımı</h2>
             <div className="row mx-0">
                 <div className="col-lg-6">
-                    <ProductSlide/>
+                    <Lightbox/>
                 </div>
                 <div className="col-lg-6">
                     <div className="col-sm-12 mb-3 mx-0">
@@ -28,10 +29,10 @@ const YemekOdasiPage = () => {
 
             </div>
 
-            <div className="mt-3" style={{backgroundColor:'#EAEAEA'}}>
+            <div className="mt-3 pb-3" style={{backgroundColor:'#edf2f7'}}>
                 <div className="container-xxl">
-                <h2 className="pt-5 ps-2">Benzer Ürünler</h2>
-                <Kartslayt/>
+                <h4 className="pt-5 ps-2">Benzer Ürünler</h4>
+                <YeniKartSlayt/>
                 </div>
             
             </div>

@@ -7,7 +7,7 @@ import ProductCard from './ProductCard';
 const YeniKartSlayt = () => {
    return (
       <div style={{backgroundColor:'#edf2f7'}}>
-         <div className="container-xxl py-4"  >
+         <div className="container-xxl py-2"  >
             <Carousel
                arrows={true}
                additionalTransfrom={1}

@@ -12,6 +12,8 @@
 .header-border {
     border-bottom: 1px solid lightgrey;
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
   }
 
   .navbar-expand-xl .navbar-nav .nav-link {
@@ -21,5 +23,5 @@
 
 .nav-brand {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
