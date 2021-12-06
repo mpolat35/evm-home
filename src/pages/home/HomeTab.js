@@ -1,6 +1,7 @@
 import React from 'react'
 import Kartslayt from '../../components/Kartslayt'
 import YemekOdasi from '../../components/YemekOdasi'
+import YeniKartSlayt from '../../components/YeniKartSlayt'
 
 const HomeTab = () => {   
     return (
@@ -27,9 +28,9 @@ const HomeTab = () => {
                 </li>
             </ul>
             <div className="tab-content py-3" id="pills-tabContent" style={{backgroundColor:'#edf2f7'}} >
-                <div className="tab-pane fade show active" id="pills-koltuk" role="tabpanel" aria-labelledby="pills-koltuk-tab"><Kartslayt/></div>
-                <div className="tab-pane fade" id="pills-yemek" role="tabpanel" aria-labelledby="pills-yemek-tab"><YemekOdasi/></div>
-                <div className="tab-pane fade" id="pills-yatak" role="tabpanel" aria-labelledby="pills-yatak-tab">CCC</div>
+                <div className="tab-pane fade show active" id="pills-koltuk" role="tabpanel" aria-labelledby="pills-koltuk-tab"><YeniKartSlayt/></div>
+                <div className="tab-pane fade" id="pills-yemek" role="tabpanel" aria-labelledby="pills-yemek-tab"><Kartslayt/></div>
+                <div className="tab-pane fade" id="pills-yatak" role="tabpanel" aria-labelledby="pills-yatak-tab"><YemekOdasi/></div>
                 <div className="tab-pane fade" id="pills-genc" role="tabpanel" aria-labelledby="pills-genc-tab">DDD</div>
                 <div className="tab-pane fade" id="pills-mutfak" role="tabpanel" aria-labelledby="pills-mutfak-tab">EEE</div>
                 <div className="tab-pane fade" id="pills-baza" role="tabpanel" aria-labelledby="pills-baza-tab">FFF</div>

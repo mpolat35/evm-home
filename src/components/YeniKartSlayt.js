@@ -7,7 +7,7 @@ import ProductCard from './ProductCard';
 const YeniKartSlayt = () => {
    return (
       <div style={{backgroundColor:'#edf2f7'}}>
-         <div className="container-xxl py-5"  >
+         <div className="container-xxl py-4"  >
             <Carousel
                arrows={true}
                additionalTransfrom={1}
@@ -20,14 +20,14 @@ const YeniKartSlayt = () => {
                responsive={{
                   superLargeDesktop: {
                      breakpoint: { max: 3000, min: 1300 },
-                     items: 4,
+                     items: 3,
                   },
                   desktop: {
                      breakpoint: {
                      max: 1300,
                      min: 980,
                      },
-                     items: 3,
+                     items: 2,
                      partialVisibilityGutter: 40,
                   },
                   tablet: {

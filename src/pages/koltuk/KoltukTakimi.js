@@ -17,7 +17,7 @@ const Koltuktakimi = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <Link to={`/yemek-odasi`} style={{textDecoration:'none'}} >
                     <div className="paper">
-                        <img src={armoni} className="d-block w-100" alt="..."/>
+                        <img src={armoni} width="100%" height="300px" alt="..."/>
                         <div className="">
                             <h5 className="mt-1">Armoni Koltuk Takımı</h5>
                         </div>
@@ -25,20 +25,20 @@ const Koltuktakimi = () => {
                     </Link>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div className="paper">
-                        <img src={kiev} className="d-block w-100" alt="..."/>
-                        <div className="">
+                <div className="col-lg-4 col-sm-12">
+                    <div className="paper"  >
+                        <img src={kiev} width="100%" height="300px" alt="..."/>
+                        <div className="d-none d-md-block">
                             <h5 className="mt-1">Kiev Koltuk Takımı</h5>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-lg-4 col-sm-12">
-                    <div className="paper">
-                        <img src={longlukes} className="d-block w-100" alt="..."/>
+                    <div className="paper"  >
+                        <img src={longlukes} width="100%" height="300px" alt="..."/>
                         <div className="d-none d-md-block">
-                            <h5 className="mt-1">Long Lukes Koltuk Takımı</h5>
+                            <h5 className="mt-1">Lukes Koltuk Takımı</h5>
                         </div>
                     </div>
                 </div>
