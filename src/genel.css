@@ -78,4 +78,21 @@ body {
   border-radius:8px;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 100000;
+  background-color: #50ad5e;
+  ;
+  color: "white";
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 14px;
+}
+
+.whatsapp-icon :hover {
+  background-color: #27582e;
+}
+
 
