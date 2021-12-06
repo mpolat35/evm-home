@@ -7,7 +7,7 @@ import slayt3 from '../../images/slayt3.jpg'
 const HomeSlider = () => {
     return (
         <div className="container-xxl" style={{maxHeight:'800px'}} >
-            <div id="carousel_1" className="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div  className="carousel carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>

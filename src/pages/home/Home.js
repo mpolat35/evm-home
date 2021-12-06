@@ -1,4 +1,5 @@
 import React from 'react'
+import YeniKartSlayt from '../../components/YeniKartSlayt'
 import './Home.css'
 import HomeIcon from './HomeIcon'
 import HomeSlider from './HomeSlider'
@@ -13,6 +14,7 @@ const HomePage = () => {
             <section><HomeTab/></section>
             <section><Resim/></section>
             <section><HomeIcon/></section>
+            <section><YeniKartSlayt/></section>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeIcon = () => {
   return (
-    <div style={{backgroundColor:'#edf2f7'}} >
+    <div style={{backgroundColor:'#fff'}} >
       <div className="container-xxl py-5">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-md-12">

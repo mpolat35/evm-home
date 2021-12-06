@@ -1,39 +1,7 @@
-/* ? Home Slider CSS */
+/* ! Home Slider CSS */
 
-#carousel_1 .carousel-control-prev, 
-#carousel_1 .carousel-control-next {
-    width: 40px;
-    height: 40px;
-    background-color: #edf2f7;
-    border-radius: 50%;
-    opacity: 1;
-    top: calc(50% - 25px);
-    color:rgb(10, 10, 10) !important;
-}
-
-#carousel_1 .carousel-control-prev {
-    left: 2%;
-}
-
-#carousel_1 .carousel-control-next {
-    right: 2%;
-}
-
-.carousel-item.active, .carousel-item-next, .carousel-item-prev {
-  padding: 0px !important;
-}
-
-#carousel_1 .carousel-caption {
-    background-color: #edf2f7;
-    transition:all 1s cubic-bezier(.25,.46,.45,.94);
-    transition: delay 0.5s;;
-    width: 430px;
-    height: 270px;
-    padding: 30px;
-  }
-
-   .carousel-control-prev, 
- .carousel-control-next {
+.carousel-control-prev, 
+.carousel-control-next {
     width: 40px;
     height: 40px;
     background-color: #edf2f7;
@@ -51,18 +19,20 @@
     right: 2%;
 }
 
-.carousel-item.active, .carousel-item-next, .carousel-item-prev {
-  padding: 0px !important;
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 33%;
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
 }
 
- .carousel-caption {
-    background-color: #edf2f7;
-    transition:all 1s cubic-bezier(.25,.46,.45,.94);
-    transition: delay 0.5s;;
-    width: 430px;
-    height: 270px;
-    padding: 30px;
-  }
+ol.carousel-indicators li.active {
+  background: yellow;
+}
 
 
 /* ! Home Tab CSS */
