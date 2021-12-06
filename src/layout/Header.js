@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import {Link} from "react-router-dom";
 
 
 
 const Header = () => {
 
-   const [showWhatsapp, setShowWhatsapp] = useState(true);
-   const [country, setCountry] = useState('TR');
+
 
    return (
       <div className="header-border">
