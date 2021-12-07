@@ -1,4 +1,6 @@
 import React from "react";
+import Deneme from "../../components/Deneme";
+
 
 
 const ContactPage = () => {
@@ -105,6 +107,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <Deneme/>
     </div>
   );
 };
