@@ -243,5 +243,21 @@ body {
 }
 
 
+.buyume {
+  transition: 1s;
+}
+.buyume:hover {
+  transform: scale(1.02);
+}
+
+.buyume-icon {
+  transition: 1s;
+}
+.buyume-icon:hover {
+  transform:scaleX(1.2)
+}
+
+
+
 
 
