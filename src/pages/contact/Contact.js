@@ -5,12 +5,11 @@ import React from "react";
 const ContactPage = () => {
   return (
     <div className="container-xxl">
-      <div className="col-sm-12 paper my-3 p-1">
+      <div className="col-sm-12 paper my-3 p-1 ">
       <iframe 
+      className="contact-map"
       title="map"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.9585491140415!2d29.192888615645103!3d40.916654733006354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac4f2cfba5b59%3A0xc8730d9bf0d62400!2sEvmhome(Evim%20Mobilya%20So%C4%9Fanl%C4%B1k)!5e0!3m2!1str!2str!4v1638301532191!5m2!1str!2str"
-      width="100%" 
-      height="500" 
       frameborder="0">
 
       </iframe>
@@ -18,11 +17,9 @@ const ContactPage = () => {
 
       <div className="col-sm-12 paper p-3 text-align-left">
         <h4 className="pt-2" >BİZE ULAŞIN</h4>
-        <p>
-          Sormak istediğiniz her konuda bize buradan mesaj gönderebilirsiniz.
-          Size ulaşabilmemiz için, tercihen e-mail adresinizi veya telefon
-          numaranızdan en az birini belirtmelisiniz. En kısa sürede tarafımızdan
-          iletişim kurulacaktır. İlginizden dolayı şimdiden teşekkür ederiz.
+        <p className="text-justify">
+          Sormak istediğiniz her konuda bizi arayabilir yada bize mesaj gönderebilirsiniz.
+          En kısa sürede tarafımızdan iletişim kurulacaktır. İlginizden dolayı şimdiden teşekkür ederiz.
         </p>
       </div>
 

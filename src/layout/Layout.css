@@ -16,6 +16,7 @@
     font-weight: 500;
   }
 
+
   .navbar-expand-xl .navbar-nav .nav-link {
       padding: 1rem 1rem !important;
       font-weight: 500;
@@ -25,3 +26,10 @@
     font-weight: 600;
     font-size: 18px;
 }
+
+@media screen and (max-width: 600px) {
+    .footer-mobile {
+      padding-left: 30px ;
+      padding-right: 20px;
+    }
+  }
