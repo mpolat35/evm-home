@@ -19,16 +19,16 @@ const Lightbox = () => {
             </div>
             <div className="row">
             <div className="">
-               <img src={kiev} height="90" width="120" className="m-1" alt="..."/>
-               <img src={liza} height="90" width="120" className="m-1"alt="..."/>
-               <img src={lizbon} height="90"width="120"  className="m-1"alt="..."/>
-               <img src={loft} height="90" width="120" className="m-1"alt="..."/>
-               <img src={longlukes} height="90" width="120" className="m-1"alt="..."/>
-               <img src={loft} height="90" width="120"  className="m-1"alt="..."/>
-               <img src={lizbon} height="90"width="120"  className="m-1"alt="..."/>
-               <img src={loft} height="90" width="120"className="m-1" alt="..."/>
-               <img src={longlukes} height="90" width="120" className="m-1"alt="..."/>
-               <img src={loft} height="90" width="120" className="m-1" alt="..."/>
+               <img src={kiev} height="80" width="120" className="m-1" alt="..."/>
+               <img src={liza} height="80" width="100" className="m-1"alt="..."/>
+               <img src={lizbon} height="80"width="100"  className="m-1"alt="..."/>
+               <img src={loft} height="80" width="100" className="m-1"alt="..."/>
+               <img src={longlukes} height="80" width="100" className="m-1"alt="..."/>
+               <img src={loft} height="80" width="100"  className="m-1"alt="..."/>
+               <img src={lizbon} height="80"width="100"  className="m-1"alt="..."/>
+               <img src={loft} height="80" width="100"className="m-1" alt="..."/>
+               <img src={longlukes} height="80" width="100" className="m-1"alt="..."/>
+               <img src={loft} height="80" width="100" className="m-1" alt="..."/>
             </div>
             </div>
 
