@@ -7,7 +7,7 @@ const ProductCard = () => {
    return (
       <div className="paper pt-1 pb-3 px-3">
          <div >
-            <img src={armoni} className="img-fluid buyume" style={{width:'100%', height:'300px', objectFit:'cover'}} alt="..."/>
+            <img src={armoni} className="resimler img-fluid buyume" style={{width:'100%', height:'300px', objectFit:'cover'}} alt="..."/>
             <div >
                <h5>Armoni Koltuk Takımı</h5>
                <Link to={`/yemek-odasi`} style={{textDecoration:'none'}} >

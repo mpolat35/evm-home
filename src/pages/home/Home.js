@@ -1,10 +1,10 @@
 import React from 'react'
-import YeniKartSlayt from '../../components/YeniKartSlayt'
 import './Home.css'
 import HomeIcon from './HomeIcon'
 import HomeSlider from './HomeSlider'
 import HomeTab from './HomeTab'
 import Resim from './Resim'
+import Tab2 from './Tab2'
 
 
 const HomePage = () => {
@@ -12,9 +12,9 @@ const HomePage = () => {
         <div className="">
             <section><HomeSlider/></section>
             <section><HomeTab/></section>
+            <section><Tab2/></section>
             <section><Resim/></section>
             <section><HomeIcon/></section>
-            <section><YeniKartSlayt/></section>
         </div>
     )
 }
